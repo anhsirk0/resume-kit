@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Manrope";
+    src: local("Manrope"), url("src/fonts/Manrope/Manrope-Variable.ttf");
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+html {
+  overflow: hidden;
+}
+
+.btn {
+  @apply rounded-full normal-case;
+}
+
+.center {
+  @apply flex items-center justify-center;
+}
+
+.transitional {
+  @apply transition-all duration-300 ease-out;
+}
+
+.text-40 {
+  @apply text-base-content/40;
+}
+
+.text-60 {
+  @apply text-base-content/60;
+}
+
+.text-80 {
+  @apply text-base-content/80;
+}
