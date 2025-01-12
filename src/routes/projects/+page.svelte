@@ -41,7 +41,7 @@
     {#each projects as project, idx (project.title)}
       <div
         in:fade={{ delay: (idx + 1) * 150 + 200 }}
-        class="card bg-base-100 shadow-xl col-span-6 md:col-span-2 2xl:col-span-2 border border-base-300/50 rounded-2xl"
+        class="card bg-base-100 shadow-lg shadow-base-300 col-span-6 md:col-span-2 2xl:col-span-2 border border-neutral/5 rounded-2xl"
       >
         <div class="card-body p-4 lg:p-6 2xl:p-8">
           <div class="flex flex-row gap-4 mb-1 xl:mb-2">

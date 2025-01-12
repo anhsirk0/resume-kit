@@ -17,7 +17,7 @@
 </script>
 
 <div
-  class="fixed top-0 -right-[13rem] group-has-[#theme-btn:focus]:right-0 group-has-[#theme-container>*:focus]:right-0 z-10 w-fit transitional h-full"
+  class="fixed top-0 -right-[13rem] group-has-[#theme-btn:focus]:right-0 group-has-[#theme-container>*:focus]:right-0 z-50 w-fit transitional h-full"
 >
   <ul
     id="theme-container"
