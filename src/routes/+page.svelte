@@ -12,6 +12,10 @@
   import Blob from "../components/Blob.svelte";
 </script>
 
+<svelte:head>
+  <title>{appDetails.title}</title>
+</svelte:head>
+
 <OnMount>
   <div
     in:fade
